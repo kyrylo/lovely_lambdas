@@ -2,8 +2,8 @@ Gem::Specification.new do |s|
   s.name         = 'lovely_lambdas'
   s.version      = File.read('VERSION')
   s.date         = Time.now.strftime('%Y-%m-%d')
-  s.summary      = ''
-  s.description  = ''
+  s.summary      = 'Love lovely malambing lambdas'
+  s.description  = 'Love lovely malambing lambdas'
   s.author       = 'Kyrylo Silin'
   s.email        = 'kyrylosilin@gmail.com'
   s.homepage     = 'https://github.com/kyrylo/lovely_lambdas'
