@@ -1,4 +1,6 @@
-module LovelyLambdas
+require_relative 'lovely_lambdas/create_interceptor'
+
+module LL
 
   # The VERSION file must be in the root directory of the library.
   VERSION_FILE = File.expand_path('../../VERSION', __FILE__)
