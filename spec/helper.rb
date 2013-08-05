@@ -1,5 +1,6 @@
 require 'bacon'
 require 'pry'
+require 'stringio'
 
 require_relative '../lib/lovely_lambdas'
 

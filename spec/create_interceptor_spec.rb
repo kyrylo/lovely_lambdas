@@ -11,19 +11,15 @@ describe LL do
     describe "provided original and new methods" do
       before do
         @out = StringIO.new
-        @good_drink_msg = ->(drink) {
+        good_drink_msg = ->(drink) {
           @out.write("#{drink} is awesome!") }
-        @bad_drink_msg = ->(drink) {
+        bad_drink_msg = ->(drink) {
           drink == 'kvas' ? true : (@out.write("#{drink} is bad!"); nil) }
 
-        @interceptor = LL.create_interceptor(@good_drink_msg, @bad_drink_msg)
+        @interceptor = LL.create_interceptor(good_drink_msg, bad_drink_msg)
       end
 
-      after do
-        @out = StringIO.new
-      end
-
-      it "returns lambda" do
+      it "returns a lambda" do
         @interceptor.lambda?.should == true
       end
 
