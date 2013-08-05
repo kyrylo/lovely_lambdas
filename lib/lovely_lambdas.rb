@@ -1,4 +1,5 @@
 require_relative 'lovely_lambdas/create_interceptor'
+require_relative 'lovely_lambdas/create_sequence'
 
 module LL
 
