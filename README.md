@@ -9,6 +9,12 @@ Description
 This is just a tiny collection of some functions from the Sencha Touch framework
 (the Ext.Function namespace). This is a fun project, fo shizzle.
 
+Examples
+--------
+
+See the specs for some examples. For the explanation see the source code (it's
+small).
+
 Installation
 ------------
 
