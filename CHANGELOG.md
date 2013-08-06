@@ -1,6 +1,6 @@
-LovelyLambdas changelog
-=============
+Lovely Lambdas (LL) changelog
+=============================
 
-### v0.0.0 (August 01, 2013)
+### v0.0.1 (August 06, 2013)
 
 * Initial release
