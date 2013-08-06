@@ -11,7 +11,7 @@ module LL
   #     p.call(2) #=> [1, 2]
   #     p.call #=> [1, 2]
   #
-  #   @param [Proc] m the Proc to be wrapped
+  #   @param [Proc] m the Proc to be wrapped; must accept at least 1 parameter
   #   @param [Array] array the Array, which holds the values to be immediately
   #     prepopulated
   #   @return [Proc] the new Proc, which allows adding new values to the
@@ -25,7 +25,7 @@ module LL
   #     p.call(3) #=> [1, 2, 3]
   #     p.call #=> [1, 2, 3]
   #
-  #   @param [Proc] m the Proc to be wrapped
+  #   @param [Proc] m the Proc to be wrapped; must accept at least 1 parameter
   #   @param [Object] a the first value of the prepopulated array
   #   @param [Object] b the second value of the prepopulated array
   #   @return [Proc] the wrapped Proc, which allows adding new values to the
